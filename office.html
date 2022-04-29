@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Office Supplies</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="container-fluid">
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand " href="index.html"><img src="logo2.png" height="70px" width="130px"></a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html"><b>CONTACT US</b><span
+                                class="visually-hidden">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="compare.html"><b>COMPARE</b></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><b>PRODUCTS</b></a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li>
+                                <a class="dropdown-item" data-bs-toggle="offcanvas" href="#offcanvasBrand" role="button" aria-controls="offcanvasExample">Brands</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" data-bs-toggle="offcanvas" href="#offcanvasAccessories" role="button" aria-controls="offcanvasExample">Accessories</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook"></i></a> &nbsp; &nbsp; &nbsp;
+                        <a href="#"><i class="fa fa-twitter"></i></a> &nbsp; &nbsp; &nbsp;
+                        <a href="#"><i class="fa fa-google-plus"></i></a> &nbsp; &nbsp; &nbsp;
+                        <a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasBrand" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title display-6 text-center" id="offcanvasExampleLabel" style="font-weight: bolder;"> BRANDS</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: #222;">
+
+            <p class="pOne">Choose your desired Brands</p>
+
+            <div>
+                <h6>Brands</h6>
+                <button id="b2" type="button" class="btn btn-outline-dark" onclick="location.href='dollar.html'">Dollar</button><br>
+                <button id="b2" type="button" class="btn btn-outline-dark" onclick="location.href='piano.html'">Piano</button><br>
+                <button id="b2" type=" button" class="btn btn-outline-dark" onclick="location.href='puma.html'">Puma</button><br>
+                <button id="b2" type=" button" class="btn btn-outline-dark" onclick="location.href='deli.html'">Deli</button><br>
+                <button id="b2" type=" button" class="btn btn-outline-dark" onclick="location.href='pelikan.html'">Pelikan</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasAccessories" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header bg-dark">
+            <h5 class="offcanvas-title display-6 text-center" id="offcanvasExampleLabel" style="font-weight: bolder;">ACCESSORIES</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: #222;">
+
+            <p class="pOne">Choose your desired Accessories</p>
+            <div>
+                <h6>Accessories</h6>
+                <button id="b2" type="button" class="btn btn-outline-dark" onclick="location.href='office.html'">Office</button><br>
+                <button id="b2" type="button" class="btn btn-outline-dark" onclick="location.href='school.html'">School</button><br>
+                <button id="b2" type="button" class="btn btn-outline-dark" onclick="location.href='bags.html'">Bags</button><br>
+                <button id="b2" type="button" class="btn btn-outline-dark" onclick="location.href='other.html'">Other</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="container" style="margin-bottom: 7%;">
+        <div class="row">
+            <div class="col text-center my-4">
+                <h1 class="fs-2">Office Supplies</h1>
+                <div class="underline mx-auto mt-3"></div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-4 button-group filter-button-group">
+            <div class="col d-flex justify-content-center">
+                <button type="button" data-filter="*" class="btn btn-primary mx-1 text-dark">All</button>
+                <button type="button" data-filter=".calculator" class="btn btn-primary mx-1 text-dark">Calculators</button>
+                <button type="button" data-filter=".stappler" class="btn btn-primary mx-1 text-dark">Stapplers</button>
+                <button type="button" data-filter=".punchmachine" class="btn btn-primary mx-1 text-dark">Punch Machine</button>
+                <button type="button" data-filter=".ballpen" class="btn btn-primary mx-1 text-dark">Ball Pen</button>
+                <button type="button" data-filter=".others" class="btn btn-primary mx-1 text-dark">Others</button>
+            </div>
+        </div>
+
+        <div class="row justify-content-center g-4" id="product-list">
+            <div class="col-lg-3 col-md-6 ballpen">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/deliballpen.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/deliballpen.html" style="color: black;">Deli Ball Pen</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 20</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delipermenentmarker.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delipermenentmarker.html" style="color: black;">Deli All Mark</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 90</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delibluehighlighter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delibluehighlighter.html" style="color: black;">Deli Highlighter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 calculator">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delicalculatorE39321.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delicalculatorE39321.html" style="color: black;">Deli E-39321</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 700</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delieraserpencils.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delieraserpencils.html" style="color: black;">Deli Eraser Pencils</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 15</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 calculator">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delicalculatorM19810.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delicalculatorM19810.html" style="color: black;">Deli M-19810</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 850</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/deligreenhighlighter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/deligreenhighlighter.html" style="color: black;">Deli Highlighter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delipinkhighlighter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delipinkhighlighter.html" style="color: black;">Deli Highlighter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 punchmachine">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delipunchmachine.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delipunchmachine.html" style="color: black;">Deli Punch Machine</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 325</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delipurplehighlighter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delipurplehighlighter.html" style="color: black;">Deli Highlighter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/deliorangehighlighter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/deliorangehighlighter.html" style="color: black;">Deli Highlighter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 punchmachine">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delipunchmachinelarge.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delipunchmachinelarge.html" style="color: black;">Deli Punch Machine</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 340</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 stappler">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delistappler.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delistappler.html" style="color: black;">Deli Stappler</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 350</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/deliyellowhighlighter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/deliyellowhighlighter.html" style="color: black;">Deli Highlighter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Deli/delipapercutter.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/delipapercutter.html" style="color: black;">Deli Paper Cutter</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 100</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ballpen">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Dollar/dollarballpen.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/dollarballpen.html"  style="color: black;">Dollar Ball Pen</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 15</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 stappler">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Dollar/dollarstapplerpins.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/dollarstapplerpins.html"  style="color: black;">Dollar Stappler Pins</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 60</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Dollar/dollarpermenentmarker.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/dollarpermenentmarker.html"  style="color: black;">Dollar All Mark</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 80</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Dollar/dollarpermenentmarkerink.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/dollarpermenentmarkerink.html"  style="color: black;">Dollar All Mark Ink</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 70</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 ballpen">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Pelikan/pelikanballpen.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/pelikanballpen.html" style="color: black;">Pelikan Ball Pen</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 30</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 others">
+                <div class="product-item">
+                    <div class="product-img">
+                        <img src="Images/Piano/pianopermenentmarker.png" class="img-fluid d-block mx-auto">
+                    </div>
+                    <div class="product-content text-center py-3">
+                        <span class="d-block text-uppercase fw-bold"><a href="Products Html Files/pianopermenentmarker.html" style="color: black;">Piano Permenent Marker</a></span>
+                        <span class="d-block" style="color: #ff3115;">Rs 100</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact-address ">
+        <div class="container " style=" position: relative; background-color: black; text-align: center; padding-top: 1%;padding-bottom: 1%; ">
+            <div class="row footer-contact-desc ">
+                <div class="col-md-4 ">
+                    <div class="contact-inner ">
+                        <i class="fa fa-map-marker "></i>
+                        <h4 class="contact-title ">Address</h4>
+                        <p class="contact-desc ">
+                            Shop No. 202, Main Urdu Bazaar, Karachi, Pakistan.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="contact-inner ">
+                        <i class="fa fa-phone "></i>
+                        <h4 class="contact-title ">Phone Number</h4>
+                        <p class="contact-desc ">
+                            0311-6646222<br>021-38098501<br>021-38098502
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="contact-inner ">
+                        <i class="fa fa-map-marker "></i>
+                        <h4 class="contact-title ">Email Address</h4>
+                        <p class="contact-desc ">
+                            info@universalstationaries.com<br> www.yourname.com
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <div class="footer ">
+        <div class="bg-footer " style="color: white; text-align: center; padding-top: 7%;padding-bottom: 5%; ">
+            <div class="row ">
+                <div class="col-4 ">
+                    <img class="footer-logo " src="logo2.png " style="display: inline; ">
+                    <h5 style="display: inline; ">UNIVERSAL SATIONARIES</h5>
+                    <ul class="list-unstyled ">
+                        <li>
+                            Universal Stationaries are the best stationary store in Pakistan.
+                        </li>
+                        <li>
+                            Registered 2011
+                        </li>
+                    </ul>
+                    <a href="https://www.facebook.com/"><i class="fa fa-facebook "></i></a> &nbsp; &nbsp; &nbsp;
+                    <a href="https://twitter.com/"><i class="fa fa-twitter "></i></a> &nbsp; &nbsp; &nbsp;
+                    <a href="https://plus.google.com/"><i class="fa fa-google-plus "></i></a> &nbsp; &nbsp; &nbsp;
+                    <a href="https://www.linkedin.com/"><i class="fa fa-linkedin "></i></a></li>
+                </div>
+                <div class="col-4 ">
+                    <h5 class="footer-title ">OUR BRANDS</h5>
+                    <ul class="sitemap-widget list-unstyled ">
+                        <li class="active "><a href="kidco.html "><i class="fa fa-angle-right "
+                                aria-hidden="true "></i>Kidco</a></li>
+                        <li><a href="deli.html "><i class="fa fa-angle-right " aria-hidden="true "></i>Deli</a></li>
+                        <li><a href="dollar.html "><i class="fa fa-angle-right " aria-hidden="true "></i>Dollar</a></li>
+                        <li><a href="camelmountain.html "><i class="fa fa-angle-right " aria-hidden="true "></i>Camel
+                            Mountain</a></li>
+                        <li><a href="puma.html "><i class="fa fa-angle-right " aria-hidden="true "></i>Puma</a></li>
+                        <li><a href="pelikan.html "><i class="fa fa-angle-right " aria-hidden="true "></i>Pelikan</a></li>
+                        <li><a href="piano.html "><i class="fa fa-angle-right " aria-hidden="true "></i>Piano</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 ">
+                    <h5 class="footer-title ">OUR PRODUCTS</h5>
+                    <ul class="flickr-feed ">
+                        <li>
+                            <a href="Products Html Files/dollar717pen.html"><img src="Images/Dollar/dollar717pen.png" alt="Project Image " height="100px " width="100px "></a>
+                        </li>
+                        <li>
+                            <a href="Products Html Files/bag12.html"><img src="Images/Bags/Puma/bag12.png" alt="Project Image " height="100px " width="100px "></a>
+                        </li>
+                        <li>
+                            <a href="Products Html Files/pianopermenentmarker.html"><img src="Images/Piano/pianopermenentmarker.png" alt="Project Image " height="100px " width="100px "></a>
+                        </li>
+                        <li>
+                            <a href="Products Html Files/delipunchmachine.html"><img src="Images/Deli/delipunchmachine.png" alt="Project Image " height="100px " width="100px "></a>
+                        </li>
+                        <li>
+                            <a href="Products Html Files/bag5.html"><img src="Images/Bags/Camel Mountain/bag5.png" alt="Project Image " height="100px " width="100px "></a>
+                        </li>
+                        <li>
+                            <a href="Products Html Files/pelikaninkpen.html"><img src="Images/Pelikan/pelikaninkpen.png" alt="Project Image " height="100px " width="100px "></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="container ">
+                <div class="copyright ">
+                    <p>© 2022 <a href="index.html ">Universal Stationaries</a>. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Scroll Up-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-angle-up"></i></button>
+    <script>
+        //Get the button:
+        mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0; // For Safari
+            document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- isotope plugin -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script>
+        // init Isotope
+        var $grid = $('#product-list').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.filter-button-group').on('click', 'button', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({
+                filter: filterValue
+            });
+        });
+    </script>
+</body>
+
+</html>
